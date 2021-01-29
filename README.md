@@ -10,8 +10,8 @@ Ei mitään kaunista katseltavaa, mutta täyttää kait esitehtävän vaatimukse
 Sonarlint huutaa ja poikkeustenkäsittely on vielä hakusessa, mutta pitäisi sentään kääntyä. :D
 
 ## Miten käännän ja suoritan?
-rakenna.bat sisältää komennon, joilla tämä kasa nykyisellään rakentuu Windowsilla. "mvn package" ei toistaiseksi tuo Mavenille ilmoitettua JDBC-riippuvuutta, vaan pitää käyttää "mvn clean compile assembly:single"
-juokse.bat sisältää komennon, jolla lopputuotoksen voi suorittaa Windowsilla.
+Slackistä löytyikin ratkaisu "mvn package" ongelmaan. Miksei aiemmin siellä käynyt? Päivitetty rakenna.bat (vanha vaati "mvn clean compile assembly:single").
+Käännön pitäisi siis windowsilla sujua ihan vaan "mvn package" ja suoritus "java -jar target\chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar". Linux/mac varmaan samoin, mutta polku erilain.
 
 ## Mitä ohjelma tekee?
 Ensimmäisellä pyöräytyksellä, tai jos ohjelman tietokanta on poistettu, luodaan käypä tietokanta nimellä csdb.db. Kanta sisältää kaksi taulukkoa: 'user' käyttäjätiedoille ja 'message' viesteille.
