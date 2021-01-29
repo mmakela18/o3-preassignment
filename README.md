@@ -1,4 +1,9 @@
 # O3_ChatServer
+
+Mikko Mäkelä
+2581271
+mmakela18@student.oulu.fi
+
 ## Ohjelmointi 3 esitehtävä
 
 Ei mitään kaunista katseltavaa, mutta täyttää kait esitehtävän vaatimukset.
