@@ -10,10 +10,8 @@ Ei mitään kaunista katseltavaa, mutta täyttää kait esitehtävän vaatimukse
 Sonarlint huutaa ja poikkeustenkäsittely on vielä hakusessa, mutta pitäisi sentään kääntyä. :D
 
 ## Miten käännän ja suoritan?
-rakenna.bat sisältää komennot, joilla tämä kasa nykyisellään rakentuu Windowsilla.
-Linux/Mac pitänee vain muuttaa polku toiselta riviltä, tallentaa .sh ja antaa suoritusoikeus chmod +x. Asia vielä testaamatta.
-juokse.bat sisältää komennon, jolla lopputuotoksen voi suorittaa Windowsilla. Varmaan sama muutos Linux/Mac kuin ylempänä.
-Päätin sisällyttää nämä filut, koska pelkään niiden yhä muuttuvan homman edetessä.
+rakenna.bat sisältää komennon, joilla tämä kasa nykyisellään rakentuu Windowsilla. "mvn package" ei toistaiseksi tuo Mavenille ilmoitettua JDBC-riippuvuutta, vaan pitää käyttää "mvn clean compile assembly:single"
+juokse.bat sisältää komennon, jolla lopputuotoksen voi suorittaa Windowsilla.
 
 ## Mitä ohjelma tekee?
 Ensimmäisellä pyöräytyksellä, tai jos ohjelman tietokanta on poistettu, luodaan käypä tietokanta nimellä csdb.db. Kanta sisältää kaksi taulukkoa: 'user' käyttäjätiedoille ja 'message' viesteille.
