@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # O3_ChatServer
-#Ohjelmointi 3 esitehtävä
+## Ohjelmointi 3 esitehtävä
 
 Ei mitään kaunista katseltavaa, mutta täyttää kait esitehtävän vaatimukset.
 Sonarlint huutaa ja poikkeustenkäsittely on vielä hakusessa, mutta pitäisi sentään kääntyä. :D
@@ -15,7 +14,3 @@ Päätin sisällyttää nämä filut, koska pelkään niiden yhä muuttuvan homm
 Ensimmäisellä pyöräytyksellä, tai jos ohjelman tietokanta on poistettu, luodaan käypä tietokanta nimellä csdb.db. Kanta sisältää kaksi taulukkoa: 'user' käyttäjätiedoille ja 'message' viesteille.
 Käyttäjänimen voi valita vapaasti, kunhan se ei ole jo tietokannassa. Toistaiseksi käyttäjänimi toimii myös nimimerkkinä.
 Käyttäjänimen valinnan jälkeen voi kirjoittaa vapaasti viestejä tietokantaan. Mutta ainoa tapa hakea viestejä kannasta on hakea ne kaikki.
-=======
-# o3-preassignment
-Ohjelmointi 3 esitehtävä
->>>>>>> 41d74f344b3bdf9b489031834b87c3b15629cc16
